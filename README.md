@@ -190,7 +190,6 @@
 <div align="center">
   <h2>Current Focus</h2>
   <p>Actively investing in areas that bridge artificial intelligence with scalable software architecture.</p>
-  <br>
 </div>
 
 <table border="0" cellpadding="20" align="center">
@@ -200,21 +199,21 @@
       <i>Production-Grade Systems</i>
       <br><br>
       <div align="left">
-        ▹ Nexus AI Operating System<br>
-        ▹ AI Agents<br>
+        ▹ Nexus OS<br>
+        ▹ Agent Systems<br>
         ▹ Intelligent Automation<br>
         ▹ Knowledge Systems<br>
-        ▹ Developer Productivity Tools
+        ▹ Developer Tools
       </div>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>📚 Learning</h3>
+      <h3>📚 Researching</h3>
       <i>Advanced Architectures</i>
       <br><br>
       <div align="left">
         ▹ Multi-Agent Systems<br>
-        ▹ Advanced System Design<br>
-        ▹ AI Infrastructure<br>
+        ▹ System Design<br>
+        ▹ Infrastructure<br>
         ▹ LLM Engineering<br>
         ▹ Distributed Systems
       </div>
@@ -226,23 +225,23 @@
       <i>Intelligent Automation</i>
       <br><br>
       <div align="left">
-        ▹ Local AI<br>
+        ▹ Local Models<br>
         ▹ Browser Automation<br>
         ▹ Desktop Automation<br>
         ▹ Workflow Automation<br>
-        ▹ Open Source AI
+        ▹ Open Source
       </div>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>📈 Improving</h3>
-      <i>Scalability & Performance</i>
+      <i>Scalability & Reliability</i>
       <br><br>
       <div align="left">
         ▹ Backend Performance<br>
         ▹ Clean Architecture<br>
-        ▹ Developer Experience<br>
-        ▹ Software Scalability<br>
-        ▹ Production Readiness
+        ▹ CI/CD & Testing<br>
+        ▹ Observability<br>
+        ▹ System Reliability
       </div>
     </td>
   </tr>
