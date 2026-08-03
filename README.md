@@ -175,12 +175,10 @@
   <p>Objective metrics supporting a consistent and active software engineering workflow.</p>
   <br>
   
-  <!-- Contribution Streak -->
   <img src="https://streak-stats.demolab.com/?user=hasan19524&amp;hide_border=true&amp;count_private=true&amp;background=00000000&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF&amp;sideNums=8B949E&amp;currStreakNum=8B949E&amp;dates=8B949E" alt="GitHub Streak">
   
   <br><br>
 
-  <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=hasan19524&amp;bg_color=00000000&amp;color=8B949E&amp;line=58A6FF&amp;point=58A6FF&amp;hide_border=true&amp;area=true" alt="GitHub Activity Graph">
 
 </div>
@@ -197,7 +195,6 @@
 
 <table border="0" cellpadding="20" align="center">
   <tr>
-    <!-- Building -->
     <td width="50%" align="center" valign="top">
       <h3>🚀 Building</h3>
       <i>Production-Grade Systems</i>
@@ -210,8 +207,6 @@
         ▹ Developer Productivity Tools
       </div>
     </td>
-    
-    <!-- Learning -->
     <td width="50%" align="center" valign="top">
       <h3>📚 Learning</h3>
       <i>Advanced Architectures</i>
@@ -225,9 +220,7 @@
       </div>
     </td>
   </tr>
-  
   <tr>
-    <!-- Exploring -->
     <td width="50%" align="center" valign="top">
       <h3>🔭 Exploring</h3>
       <i>Intelligent Automation</i>
@@ -240,8 +233,6 @@
         ▹ Open Source AI
       </div>
     </td>
-    
-    <!-- Improving -->
     <td width="50%" align="center" valign="top">
       <h3>📈 Improving</h3>
       <i>Scalability & Performance</i>
