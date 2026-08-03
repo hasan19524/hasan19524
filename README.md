@@ -39,6 +39,10 @@
   <a href="#">
     <img src="https://img.shields.io/badge/Portfolio-Coming_Soon-181717?style=flat-square&amp;logo=about.me&amp;logoColor=white" alt="Portfolio">
   </a>
+  &nbsp;
+  <a href="https://github.com/hasan19524/hasan19524/actions/workflows/snake.yml">
+    <img src="https://github.com/hasan19524/hasan19524/actions/workflows/snake.yml/badge.svg" alt="Profile Automation">
+  </a>
 
 </div>
 
@@ -332,5 +336,24 @@
     </td>
   </tr>
 </table>
+
+<!-- ============================================================================== -->
+
+<!-- ============================================================================== -->
+<!--                        AUTOMATION & DYNAMIC VISUALS                           -->
+<!-- ============================================================================== -->
+
+<div align="center">
+  <h2>Engineering Activity</h2>
+  <p>Automated contribution visualization generated via GitHub Actions CI/CD.</p>
+  <br>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
+    <img alt="Contribution Snake" src="assets/github-contribution-grid-snake.svg" width="800" />
+  </picture>
+  
+</div>
 
 <!-- ============================================================================== -->
