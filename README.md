@@ -100,58 +100,65 @@
 </table>
 
 <!-- ============================================================================== -->
-
-<!-- ============================================================================== -->
-<!--                            TECHNOLOGY EXPERIENCE                               -->
+<!--                         ENGINEERING STACK EXPERIENCE                           -->
 <!-- ============================================================================== -->
 
 <div align="center">
-  <h2>Technology Experience</h2>
+  <h2>Engineering Stack</h2>
   <p>A modern, scalable ecosystem used to build production-grade intelligent systems.</p>
-  <br>
   
-  <h3>Backend Engineering</h3>
+  <h4>Backend Engineering</h4>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django">
   <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="REST APIs">
   <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="WebSockets">
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&amp;logo=jsonwebtokens&amp;logoColor=white" alt="JWT">
+  <img src="https://img.shields.io/badge/OAuth-4285F4?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="OAuth">
   
-  <br><br>
-  
-  <h3>Frontend Engineering</h3>
+  <h4>Frontend Engineering</h4>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" alt="React">
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=next.js&amp;logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS">
   
-  <br><br>
-  
-  <h3>Artificial Intelligence</h3>
+  <h4>Artificial Intelligence</h4>
   <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama">
+  <img src="https://img.shields.io/badge/Local_AI-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Local AI">
+  <img src="https://img.shields.io/badge/AI_Agents-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="AI Agents">
   <img src="https://img.shields.io/badge/RAG-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="RAG">
   <img src="https://img.shields.io/badge/ChromaDB-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="ChromaDB">
-  <img src="https://img.shields.io/badge/AI_Agents-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="AI Agents">
   <img src="https://img.shields.io/badge/LLM_Integration-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="LLM Integration">
   <img src="https://img.shields.io/badge/Prompt_Engineering-FF6B6B?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Prompt Engineering">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n">
   
-  <br><br>
-  
-  <h3>Databases & Caching</h3>
+  <h4>Databases & Caching</h4>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&amp;logo=microsoftsqlserver&amp;logoColor=white" alt="MSSQL">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite">
   
-  <br><br>
-  
-  <h3>Developer Tools & Infrastructure</h3>
+  <h4>Developer Tools & Infrastructure</h4>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
+
+  <h4>Architecture & Engineering Concepts</h4>
+  <img src="https://img.shields.io/badge/System_Design-6B7280?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="System Design">
+  <img src="https://img.shields.io/badge/Modular_Architecture-6B7280?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="Modular Architecture">
+  <img src="https://img.shields.io/badge/REST_API_Design-6B7280?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="API Design">
+  <img src="https://img.shields.io/badge/RBAC-6B7280?style=flat-square&amp;logo=lock&amp;logoColor=white" alt="RBAC">
+  <img src="https://img.shields.io/badge/Authentication-6B7280?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authentication">
+  <img src="https://img.shields.io/badge/Authorization-6B7280?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authorization">
+  <img src="https://img.shields.io/badge/Real_Time_Systems-6B7280?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="Real-Time Systems">
+  <img src="https://img.shields.io/badge/Scalable_Architecture-6B7280?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Scalable Architecture">
 
 </div>
 
