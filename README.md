@@ -202,11 +202,13 @@
       <h3>🚀 Building</h3>
       <i>Production-Grade Systems</i>
       <br><br>
-      ▹ Nexus AI Operating System<br>
-      ▹ AI Agents<br>
-      ▹ Intelligent Automation<br>
-      ▹ Knowledge Systems<br>
-      ▹ Developer Productivity Tools
+      <p align="left">
+        ▹ Nexus AI Operating System<br>
+        ▹ AI Agents<br>
+        ▹ Intelligent Automation<br>
+        ▹ Knowledge Systems<br>
+        ▹ Developer Productivity Tools
+      </p>
     </td>
     
     <!-- Learning -->
@@ -214,11 +216,13 @@
       <h3>📚 Learning</h3>
       <i>Advanced Architectures</i>
       <br><br>
-      ▹ Multi-Agent Systems<br>
-      ▹ Advanced System Design<br>
-      ▹ AI Infrastructure<br>
-      ▹ LLM Engineering<br>
-      ▹ Distributed Systems
+      <p align="left">
+        ▹ Multi-Agent Systems<br>
+        ▹ Advanced System Design<br>
+        ▹ AI Infrastructure<br>
+        ▹ LLM Engineering<br>
+        ▹ Distributed Systems
+      </p>
     </td>
   </tr>
   
@@ -228,11 +232,13 @@
       <h3>🔭 Exploring</h3>
       <i>Intelligent Automation</i>
       <br><br>
-      ▹ Local AI<br>
-      ▹ Browser Automation<br>
-      ▹ Desktop Automation<br>
-      ▹ Workflow Automation<br>
-      ▹ Open Source AI
+      <p align="left">
+        ▹ Local AI<br>
+        ▹ Browser Automation<br>
+        ▹ Desktop Automation<br>
+        ▹ Workflow Automation<br>
+        ▹ Open Source AI
+      </p>
     </td>
     
     <!-- Improving -->
@@ -240,11 +246,13 @@
       <h3>📈 Improving</h3>
       <i>Scalability & Performance</i>
       <br><br>
-      ▹ Backend Performance<br>
-      ▹ Clean Architecture<br>
-      ▹ Developer Experience<br>
-      ▹ Software Scalability<br>
-      ▹ Production Readiness
+      <p align="left">
+        ▹ Backend Performance<br>
+        ▹ Clean Architecture<br>
+        ▹ Developer Experience<br>
+        ▹ Software Scalability<br>
+        ▹ Production Readiness
+      </p>
     </td>
   </tr>
 </table>
