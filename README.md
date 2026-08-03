@@ -1,34 +1,29 @@
-<!-- ============================================================================== -->
+﻿<!-- ============================================================================== -->
 <!--                                HERO EXPERIENCE                                 -->
 <!-- ============================================================================== -->
 
 <div align="center">
   
-  <!-- Greeting & Title -->
   <h1>Hi, I'm Hasan Siddique</h1>
   <h3>AI Engineer & Software Architect</h3>
   
   <br>
 
-  <!-- Typing Animation -->
   <a href="https://github.com/hasan19524">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&random=false&width=500&height=50&lines=Building+Nexus;AI+Agents;Intelligent+Systems;System+Design;Backend+Architecture;Autonomous+Software" alt="Typing SVG" />
   </a>
   
   <br>
 
-  <!-- Philosophy Statement -->
   <i>"Building intelligent systems that learn, reason, and take action."</i>
   
   <br>
   <br>
   
-  <!-- Current Focus -->
-  <p><b>Currently Building:</b> Nexus AI &nbsp;�&nbsp; Local AI &nbsp;�&nbsp; Autonomous Agents &nbsp;�&nbsp; Scalable Architecture</p>
+  <p><b>Currently Building:</b> Nexus AI &nbsp;•&nbsp; Local AI &nbsp;•&nbsp; Autonomous Agents &nbsp;•&nbsp; Scalable Architecture</p>
   
   <br>
 
-  <!-- Quick Links -->
   <a href="https://github.com/hasan19524">
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub">
   </a>
@@ -57,12 +52,10 @@
   <br>
 </div>
 
-<!-- 2x2 PROJECT GRID -->
 <table border="0" cellpadding="20" align="center">
   <tr>
-    <!-- Project 1: Nexus -->
     <td width="50%" align="center" valign="top">
-      <h3>?? Nexus</h3>
+      <h3>🧠 Nexus</h3>
       <i>Local-First AI Operating System</i>
       <br><br>
       Intelligent assistant designed to learn, reason, and execute autonomously.
@@ -71,10 +64,8 @@
       <br><br>
       <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
     </td>
-
-    <!-- Project 2: Acumen Teams -->
     <td width="50%" align="center" valign="top">
-      <h3>?? Acumen Teams</h3>
+      <h3>💬 Acumen Teams</h3>
       <i>Enterprise Collaboration Platform</i>
       <br><br>
       Real-time team workspaces with scalable backend architecture and secure RBAC.
@@ -84,11 +75,9 @@
       <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
     </td>
   </tr>
-
   <tr>
-    <!-- Project 3: OJASV Scientific -->
     <td width="50%" align="center" valign="top">
-      <h3>?? OJASV Scientific</h3>
+      <h3>🌐 OJASV Scientific</h3>
       <i>Production Industrial Platform</i>
       <br><br>
       Scalable, CMS-driven platform with custom admin dashboard built for a real client.
@@ -97,10 +86,8 @@
       <br><br>
       <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
     </td>
-
-    <!-- Project 4: AI Resume Analyzer -->
     <td width="50%" align="center" valign="top">
-      <h3>?? Resume Analyzer</h3>
+      <h3>🤖 Resume Analyzer</h3>
       <i>AI Workflow Automation</i>
       <br><br>
       Automated resume analysis system leveraging AI workflows and LLM integration.
