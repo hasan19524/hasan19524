@@ -100,3 +100,59 @@
 </table>
 
 <!-- ============================================================================== -->
+
+<!-- ============================================================================== -->
+<!--                            TECHNOLOGY EXPERIENCE                               -->
+<!-- ============================================================================== -->
+
+<div align="center">
+  <h2>Technology Experience</h2>
+  <p>A modern, scalable ecosystem used to build production-grade intelligent systems.</p>
+  <br>
+  
+  <h3>Backend Engineering</h3>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django">
+  <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="REST APIs">
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="WebSockets">
+  
+  <br><br>
+  
+  <h3>Frontend Engineering</h3>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=next.js&amp;logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS">
+  
+  <br><br>
+  
+  <h3>Artificial Intelligence</h3>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama">
+  <img src="https://img.shields.io/badge/RAG-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="RAG">
+  <img src="https://img.shields.io/badge/ChromaDB-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="ChromaDB">
+  <img src="https://img.shields.io/badge/AI_Agents-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="AI Agents">
+  <img src="https://img.shields.io/badge/LLM_Integration-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="LLM Integration">
+  <img src="https://img.shields.io/badge/Prompt_Engineering-FF6B6B?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Prompt Engineering">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n">
+  
+  <br><br>
+  
+  <h3>Databases & Caching</h3>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL">
+  
+  <br><br>
+  
+  <h3>Developer Tools & Infrastructure</h3>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
+
+</div>
+
+<!-- ============================================================================== -->
