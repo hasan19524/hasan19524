@@ -9,6 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1. Check out the repository so the Action has Git access
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 2. Generate the Snake SVGs
       - name: Generate Snake Grid
         uses: Platane/snk/svg-only@v3
         with:
@@ -17,6 +22,7 @@ jobs:
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # 3. Commit and push the SVGs back to the repo
       - name: Push to GitHub
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
