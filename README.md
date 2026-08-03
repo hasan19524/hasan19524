@@ -58,21 +58,21 @@
       <h3>🧠 Nexus</h3>
       <i>Local-First AI Operating System</i>
       <br><br>
-      Intelligent assistant designed to learn, reason, and execute autonomously.
+      Intelligent assistant designed to learn, reason,<br>and execute tasks autonomously.
       <br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama"><img src="https://img.shields.io/badge/ChromaDB-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="ChromaDB">
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI"><img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama"><img src="https://img.shields.io/badge/RAG-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="RAG">
       <br><br>
-      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
+      <a href="#"><img src="https://img.shields.io/badge/Repository_%E2%86%92-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>💬 Acumen Teams</h3>
       <i>Enterprise Collaboration Platform</i>
       <br><br>
-      Real-time team workspaces with scalable backend architecture and secure RBAC.
+      Real-time team workspaces with scalable backend<br>architecture and secure RBAC.
       <br><br>
       <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=next.js&amp;logoColor=white" alt="Next.js"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL"><img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis">
       <br><br>
-      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
+      <a href="#"><img src="https://img.shields.io/badge/Repository_%E2%86%92-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
     </td>
   </tr>
   <tr>
@@ -80,21 +80,21 @@
       <h3>🌐 OJASV Scientific</h3>
       <i>Production Industrial Platform</i>
       <br><br>
-      Scalable, CMS-driven platform with custom admin dashboard built for a real client.
+      Scalable, CMS-driven platform with custom admin<br>dashboard built for a real client.
       <br><br>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=next.js&amp;logoColor=white" alt="Next.js"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL">
       <br><br>
-      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
+      <a href="#"><img src="https://img.shields.io/badge/Repository_%E2%86%92-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>🤖 Resume Analyzer</h3>
       <i>AI Workflow Automation</i>
       <br><br>
-      Automated resume analysis system leveraging AI workflows and LLM integration.
+      Automated resume analysis system leveraging<br>AI workflows and LLM integration.
       <br><br>
-      <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n"><img src="https://img.shields.io/badge/LLMs-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="LLMs"><img src="https://img.shields.io/badge/Webhooks-6C2BD9?style=flat-square&amp;logo=webhooks&amp;logoColor=white" alt="Webhooks"><img src="https://img.shields.io/badge/Automation-FF6B6B?style=flat-square&amp;logo=automate&amp;logoColor=white" alt="Automation">
+      <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n"><img src="https://img.shields.io/badge/LLMs-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="LLMs"><img src="https://img.shields.io/badge/Automation-FF6B6B?style=flat-square&amp;logo=automate&amp;logoColor=white" alt="Automation">
       <br><br>
-      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Repository"></a>
+      <img src="https://img.shields.io/badge/Private_Project-6B7280?style=flat-square&amp;logo=lock&amp;logoColor=white" alt="Private Project">
     </td>
   </tr>
 </table>
