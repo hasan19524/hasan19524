@@ -1,7 +1,7 @@
 ﻿<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <style>
-            /* Smooth, slower road scroll to simulate high speed */
+            /* Fast road scroll to simulate high speed */
             @keyframes mapScroll {
                 0%   { transform: translateX(0); }
                 100% { transform: translateX(-120px); }
@@ -13,147 +13,152 @@
                 100% { transform: translateX(-200px); }
             }
 
-            /* Player car weaves up and down through 3 lanes */
+            /* Player car weaves smoothly up and down through 3 lanes */
+            /* Base Y=200. Up: -80 (Lane 1). Down: +80 (Lane 3) */
             @keyframes playerWeave {
                 0%   { transform: translateY(0px); }
-                20%  { transform: translateY(-60px); } /* Move to Top Lane */
-                40%  { transform: translateY(-60px); }
-                50%  { transform: translateY(0px); }   /* Back to Middle Lane */
-                70%  { transform: translateY(60px); }  /* Move to Bottom Lane */
-                90%  { transform: translateY(60px); }
-                100% { transform: translateY(0px); }   /* Back to Middle Lane */
+                15%  { transform: translateY(-80px); }
+                35%  { transform: translateY(-80px); }
+                50%  { transform: translateY(0px); }
+                65%  { transform: translateY(80px); }
+                85%  { transform: translateY(80px); }
+                100% { transform: translateY(0px); }
             }
 
-            .road-layer {
-                animation: mapScroll 0.8s linear infinite;
-            }
-            .enemy-1 { animation: enemyMove 12s linear infinite; }
-            .enemy-2 { animation: enemyMove 14s linear infinite 2s; }
-            .enemy-3 { animation: enemyMove 11s linear infinite 4s; }
-            .enemy-4 { animation: enemyMove 13s linear infinite 6s; }
+            .road-layer { animation: mapScroll 0.6s linear infinite; }
             
-            .player-car {
-                animation: playerWeave 8s ease-in-out infinite;
-            }
+            .enemy-1 { animation: enemyMove 12s linear infinite; }
+            .enemy-2 { animation: enemyMove 14s linear infinite 1.5s; }
+            .enemy-3 { animation: enemyMove 11s linear infinite 3s; }
+            .enemy-4 { animation: enemyMove 13s linear infinite 4.5s; }
+            .enemy-5 { animation: enemyMove 12.5s linear infinite 6s; }
+            .enemy-6 { animation: enemyMove 14.5s linear infinite 7.5s; }
+            
+            .player-car { animation: playerWeave 8s ease-in-out infinite; }
+            
+            .glow { filter: drop-shadow(0 0 5px rgba(255,255,255,0.3)); }
         </style>
-
-        <pattern id="grassPat" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-            <rect width="40" height="20" fill="#2E8B2E"/>
-            <rect y="20" width="40" height="20" fill="#33A533"/>
-        </pattern>
     </defs>
 
-    <!-- Grass Top -->
-    <rect x="0" y="0" width="1200" height="80" fill="url(#grassPat)" />
-    
-    <!-- Grass Bottom -->
-    <rect x="0" y="320" width="1200" height="80" fill="url(#grassPat)" />
+    <!-- Grass Top & Bottom (Matches GitHub Dark Mode bg) -->
+    <rect x="0" y="0" width="1200" height="80" fill="#0d1117" />
+    <rect x="0" y="320" width="1200" height="80" fill="#0d1117" />
 
-    <!-- Road Asphalt (Horizontal Strip) -->
-    <rect x="0" y="80" width="1200" height="240" fill="#333" />
+    <!-- Road Asphalt -->
+    <rect x="0" y="80" width="1200" height="240" fill="#21262d" />
 
-    <!-- Road Edges (White lines) -->
-    <rect x="0" y="84" width="1200" height="4" fill="#FFF" />
-    <rect x="0" y="312" width="1200" height="4" fill="#FFF" />
+    <!-- Road Edges (Subtle grey lines) -->
+    <rect x="0" y="80" width="1200" height="2" fill="#484f58" />
+    <rect x="0" y="318" width="1200" height="2" fill="#484f58" />
 
-    <!-- Scrolling Road Dashes (2 dividers for 3 lanes) -->
-    <g class="road-layer" fill="#FFF" opacity="0.8">
-        <!-- Lane 1|2 divider -->
-        <rect x="0" y="170" width="60" height="8" />
-        <rect x="120" y="170" width="60" height="8" />
-        <rect x="240" y="170" width="60" height="8" />
-        <rect x="360" y="170" width="60" height="8" />
-        <rect x="480" y="170" width="60" height="8" />
-        <rect x="600" y="170" width="60" height="8" />
-        <rect x="720" y="170" width="60" height="8" />
-        <rect x="840" y="170" width="60" height="8" />
-        <rect x="960" y="170" width="60" height="8" />
-        <rect x="1080" y="170" width="60" height="8" />
-        <rect x="1200" y="170" width="60" height="8" />
-        <rect x="1320" y="170" width="60" height="8" />
+    <!-- Scrolling Road Dashes -->
+    <g class="road-layer" fill="#484f58" opacity="0.8">
+        <!-- Lane 1|2 divider (y=160) -->
+        <rect x="0" y="158" width="60" height="4" />
+        <rect x="120" y="158" width="60" height="4" />
+        <rect x="240" y="158" width="60" height="4" />
+        <rect x="360" y="158" width="60" height="4" />
+        <rect x="480" y="158" width="60" height="4" />
+        <rect x="600" y="158" width="60" height="4" />
+        <rect x="720" y="158" width="60" height="4" />
+        <rect x="840" y="158" width="60" height="4" />
+        <rect x="960" y="158" width="60" height="4" />
+        <rect x="1080" y="158" width="60" height="4" />
+        <rect x="1200" y="158" width="60" height="4" />
+        <rect x="1320" y="158" width="60" height="4" />
         
-        <!-- Lane 2|3 divider -->
-        <rect x="0" y="230" width="60" height="8" />
-        <rect x="120" y="230" width="60" height="8" />
-        <rect x="240" y="230" width="60" height="8" />
-        <rect x="360" y="230" width="60" height="8" />
-        <rect x="480" y="230" width="60" height="8" />
-        <rect x="600" y="230" width="60" height="8" />
-        <rect x="720" y="230" width="60" height="8" />
-        <rect x="840" y="230" width="60" height="8" />
-        <rect x="960" y="230" width="60" height="8" />
-        <rect x="1080" y="230" width="60" height="8" />
-        <rect x="1200" y="230" width="60" height="8" />
-        <rect x="1320" y="230" width="60" height="8" />
+        <!-- Lane 2|3 divider (y=240) -->
+        <rect x="0" y="238" width="60" height="4" />
+        <rect x="120" y="238" width="60" height="4" />
+        <rect x="240" y="238" width="60" height="4" />
+        <rect x="360" y="238" width="60" height="4" />
+        <rect x="480" y="238" width="60" height="4" />
+        <rect x="600" y="238" width="60" height="4" />
+        <rect x="720" y="238" width="60" height="4" />
+        <rect x="840" y="238" width="60" height="4" />
+        <rect x="960" y="238" width="60" height="4" />
+        <rect x="1080" y="238" width="60" height="4" />
+        <rect x="1200" y="238" width="60" height="4" />
+        <rect x="1320" y="238" width="60" height="4" />
     </g>
 
-    <!-- ═══ ENEMY CARS (Slower Traffic) ═══ -->
+    <!-- ═══ ENEMY CARS (Grey, Labeled "OTHER") ═══ -->
     
-    <!-- Enemy 1: Blue (Top Lane - y=140) -->
-    <g class="enemy-1" transform="translate(1300, 140)">
-        <rect x="-30" y="-18" width="60" height="36" rx="6" fill="#0000FF" stroke="#000" stroke-width="2" />
-        <rect x="-18" y="-14" width="36" height="28" rx="4" fill="#111" />
-        <rect x="-30" y="-22" width="10" height="8" fill="#000" />
-        <rect x="20" y="-22" width="10" height="8" fill="#000" />
-        <rect x="-30" y="14" width="10" height="8" fill="#000" />
-        <rect x="20" y="14" width="10" height="8" fill="#000" />
-        <text x="0" y="6" fill="#FFF" font-family="'Courier New', monospace" font-weight="bold" font-size="18" text-anchor="middle">B</text>
+    <!-- Enemy 1 (Top Lane - y=120) -->
+    <g class="enemy-1" transform="translate(1300, 120)">
+        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
+        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
+        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
+        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
     </g>
 
-    <!-- Enemy 2: Yellow (Middle Lane - y=200) -->
+    <!-- Enemy 2 (Middle Lane - y=200) -->
     <g class="enemy-2" transform="translate(1300, 200)">
-        <rect x="-30" y="-18" width="60" height="36" rx="6" fill="#FFFF00" stroke="#000" stroke-width="2" />
-        <rect x="-18" y="-14" width="36" height="28" rx="4" fill="#111" />
-        <rect x="-30" y="-22" width="10" height="8" fill="#000" />
-        <rect x="20" y="-22" width="10" height="8" fill="#000" />
-        <rect x="-30" y="14" width="10" height="8" fill="#000" />
-        <rect x="20" y="14" width="10" height="8" fill="#000" />
-        <text x="0" y="6" fill="#000" font-family="'Courier New', monospace" font-weight="bold" font-size="18" text-anchor="middle">Y</text>
+        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
+        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
+        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
+        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
     </g>
 
-    <!-- Enemy 3: Green (Bottom Lane - y=260) -->
-    <g class="enemy-3" transform="translate(1300, 260)">
-        <rect x="-30" y="-18" width="60" height="36" rx="6" fill="#00FF00" stroke="#000" stroke-width="2" />
-        <rect x="-18" y="-14" width="36" height="28" rx="4" fill="#111" />
-        <rect x="-30" y="-22" width="10" height="8" fill="#000" />
-        <rect x="20" y="-22" width="10" height="8" fill="#000" />
-        <rect x="-30" y="14" width="10" height="8" fill="#000" />
-        <rect x="20" y="14" width="10" height="8" fill="#000" />
-        <text x="0" y="6" fill="#000" font-family="'Courier New', monospace" font-weight="bold" font-size="18" text-anchor="middle">G</text>
+    <!-- Enemy 3 (Bottom Lane - y=280) -->
+    <g class="enemy-3" transform="translate(1300, 280)">
+        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
+        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
+        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
+        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
     </g>
 
-    <!-- Enemy 4: Cyan (Top Lane - y=140) -->
-    <g class="enemy-4" transform="translate(1300, 140)">
-        <rect x="-30" y="-18" width="60" height="36" rx="6" fill="#00FFFF" stroke="#000" stroke-width="2" />
-        <rect x="-18" y="-14" width="36" height="28" rx="4" fill="#111" />
-        <rect x="-30" y="-22" width="10" height="8" fill="#000" />
-        <rect x="20" y="-22" width="10" height="8" fill="#000" />
-        <rect x="-30" y="14" width="10" height="8" fill="#000" />
-        <rect x="20" y="14" width="10" height="8" fill="#000" />
-        <text x="0" y="6" fill="#000" font-family="'Courier New', monospace" font-weight="bold" font-size="18" text-anchor="middle">C</text>
+    <!-- Enemy 4 (Top Lane - y=120) -->
+    <g class="enemy-4" transform="translate(1300, 120)">
+        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
+        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
+        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
+        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
     </g>
 
-    <!-- ═══ PLAYER CAR (ME - Red, Weaving through traffic) ═══ -->
-    <!-- Base position: x=300, y=200 (Middle Lane) -->
-    <g transform="translate(300, 200)">
-        <g class="player-car">
-            <!-- Shadow -->
-            <rect x="-28" y="-16" width="60" height="36" rx="6" fill="#000" opacity="0.4" transform="translate(3, 3)" />
-            <!-- Body -->
-            <rect x="-30" y="-18" width="60" height="36" rx="6" fill="#FF0000" stroke="#000" stroke-width="2" />
-            <!-- Windshield -->
-            <rect x="-18" y="-14" width="36" height="28" rx="4" fill="#000" />
-            <rect x="-16" y="-12" width="32" height="12" rx="3" fill="#222" />
-            <!-- Wheels -->
-            <rect x="-30" y="-22" width="10" height="8" fill="#000" />
-            <rect x="20" y="-22" width="10" height="8" fill="#000" />
-            <rect x="-30" y="14" width="10" height="8" fill="#000" />
-            <rect x="20" y="14" width="10" height="8" fill="#000" />
-            <!-- Headlights -->
-            <rect x="26" y="-12" width="4" height="6" fill="#FFF" />
-            <rect x="26" y="6" width="4" height="6" fill="#FFF" />
-            <!-- Label "ME" -->
-            <text x="0" y="6" fill="#FFF" font-family="'Courier New', monospace" font-weight="bold" font-size="18" text-anchor="middle">ME</text>
-        </g>
+    <!-- Enemy 5 (Middle Lane - y=200) -->
+    <g class="enemy-5" transform="translate(1300, 200)">
+        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
+        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
+        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
+        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
+    </g>
+
+    <!-- Enemy 6 (Bottom Lane - y=280) -->
+    <g class="enemy-6" transform="translate(1300, 280)">
+        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
+        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
+        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
+        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
+    </g>
+
+    <!-- ═══ PLAYER CAR (ME - White, Weaving through traffic) ═══ -->
+    <!-- Base position: x=200, y=200 (Middle Lane) -->
+    <g class="player-car glow" transform="translate(200, 200)">
+        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#ffffff" stroke="#c9d1d9" stroke-width="2" />
+        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
+        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
+        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
+        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
+        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="14" text-anchor="middle">ME</text>
     </g>
 </svg>
