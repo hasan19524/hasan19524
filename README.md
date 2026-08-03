@@ -155,18 +155,14 @@
   <br>
 
   <h4>Architecture & Engineering Concepts</h4>
-  <table border="0" align="center">
-    <tr>
-      <td><img src="https://img.shields.io/badge/System_Design-58A6FF?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="System Design"></td>
-      <td><img src="https://img.shields.io/badge/Modular_Architecture-9B59B6?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="Modular Architecture"></td>
-      <td><img src="https://img.shields.io/badge/API_Design-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="API Design"></td>
-      <td><img src="https://img.shields.io/badge/RBAC-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="RBAC"></td>
-      <td><img src="https://img.shields.io/badge/Authentication-4285F4?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authentication"></td>
-      <td><img src="https://img.shields.io/badge/Authorization-6C2BD9?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authorization"></td>
-      <td><img src="https://img.shields.io/badge/Real_Time_Systems-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="Real-Time Systems"></td>
-      <td><img src="https://img.shields.io/badge/Scalable_Architecture-2496ED?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Scalable Architecture"></td>
-    </tr>
-  </table>
+  <img src="https://img.shields.io/badge/System_Design-58A6FF?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="System Design">
+  <img src="https://img.shields.io/badge/Modularity-9B59B6?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="Modularity">
+  <img src="https://img.shields.io/badge/API_Design-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="API Design">
+  <img src="https://img.shields.io/badge/RBAC-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="RBAC">
+  <img src="https://img.shields.io/badge/AuthN-4285F4?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="AuthN">
+  <img src="https://img.shields.io/badge/AuthZ-6C2BD9?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="AuthZ">
+  <img src="https://img.shields.io/badge/Real_Time-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="Real-Time">
+  <img src="https://img.shields.io/badge/Scalability-2496ED?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Scalability">
 
 </div>
 
@@ -183,10 +179,10 @@
   <table border="0" cellpadding="10" align="center">
     <tr>
       <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=hasan19524&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=58A6FF&amp;text_color=8B949E&amp;icon_color=58A6FF" alt="GitHub Stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=hasan19524&amp;show_icons=true&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000&amp;title_color=58A6FF&amp;text_color=8B949E&amp;icon_color=58A6FF" alt="GitHub Stats">
       </td>
       <td align="center" valign="middle">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=hasan19524&amp;hide_border=true&amp;background=00000000&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF&amp;sideNums=8B949E&amp;currStreakNum=8B949E&amp;dates=8B949E" alt="GitHub Streak">
+        <img src="https://streak-stats.demolab.com/?user=hasan19524&amp;hide_border=true&amp;count_private=true&amp;background=00000000&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF&amp;sideNums=8B949E&amp;currStreakNum=8B949E&amp;dates=8B949E" alt="GitHub Streak">
       </td>
     </tr>
   </table>
