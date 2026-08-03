@@ -111,10 +111,10 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django">
-  <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="REST APIs">
   <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="WebSockets">
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&amp;logo=jsonwebtokens&amp;logoColor=white" alt="JWT">
   <img src="https://img.shields.io/badge/OAuth-4285F4?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="OAuth">
+  <br>
   
   <h4>Frontend Engineering</h4>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" alt="React">
@@ -124,16 +124,18 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS">
+  <br>
   
   <h4>Artificial Intelligence</h4>
   <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama">
   <img src="https://img.shields.io/badge/Local_AI-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Local AI">
-  <img src="https://img.shields.io/badge/AI_Agents-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="AI Agents">
+  <img src="https://img.shields.io/badge/Agents-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Agents">
   <img src="https://img.shields.io/badge/RAG-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="RAG">
   <img src="https://img.shields.io/badge/ChromaDB-FF4B4B?style=flat-square&amp;logo=chroma&amp;logoColor=white" alt="ChromaDB">
-  <img src="https://img.shields.io/badge/LLM_Integration-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="LLM Integration">
-  <img src="https://img.shields.io/badge/Prompt_Engineering-FF6B6B?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Prompt Engineering">
+  <img src="https://img.shields.io/badge/LLMs-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="LLMs">
+  <img src="https://img.shields.io/badge/Prompting-FF6B6B?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Prompting">
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&amp;logo=n8n&amp;logoColor=white" alt="n8n">
+  <br>
   
   <h4>Databases & Caching</h4>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL">
@@ -141,6 +143,7 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&amp;logo=microsoftsqlserver&amp;logoColor=white" alt="MSSQL">
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite">
+  <br>
   
   <h4>Developer Tools & Infrastructure</h4>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
@@ -149,16 +152,50 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
+  <br>
 
   <h4>Architecture & Engineering Concepts</h4>
-  <img src="https://img.shields.io/badge/System_Design-58A6FF?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="System Design">
-  <img src="https://img.shields.io/badge/Modular_Architecture-9B59B6?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="Modular Architecture">
-  <img src="https://img.shields.io/badge/API_Design-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="API Design">
-  <img src="https://img.shields.io/badge/RBAC-DC382D?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="RBAC">
-  <img src="https://img.shields.io/badge/Authentication-4285F4?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authentication">
-  <img src="https://img.shields.io/badge/Authorization-6C2BD9?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authorization">
-  <img src="https://img.shields.io/badge/Real_Time_Systems-010101?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="Real-Time Systems">
-  <img src="https://img.shields.io/badge/Scalable_Architecture-2496ED?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Scalable Architecture">
+  <img src="https://img.shields.io/badge/System_Design-181717?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="System Design">
+  <img src="https://img.shields.io/badge/Modular_Architecture-181717?style=flat-square&amp;logo=lucide&amp;logoColor=white" alt="Modular Architecture">
+  <img src="https://img.shields.io/badge/REST_API_Design-181717?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="API Design">
+  <img src="https://img.shields.io/badge/RBAC-181717?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="RBAC">
+  <img src="https://img.shields.io/badge/Authentication-181717?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authentication">
+  <img src="https://img.shields.io/badge/Authorization-181717?style=flat-square&amp;logo=auth0&amp;logoColor=white" alt="Authorization">
+  <img src="https://img.shields.io/badge/Real_Time_Systems-181717?style=flat-square&amp;logo=socket.io&amp;logoColor=white" alt="Real-Time Systems">
+  <img src="https://img.shields.io/badge/Scalable_Architecture-181717?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Scalable Architecture">
+
+</div>
+
+<!-- ============================================================================== -->
+<!--                        ENGINEERING ANALYTICS EXPERIENCE                        -->
+<!-- ============================================================================== -->
+
+<div align="center">
+  <h2>Engineering Analytics</h2>
+  <p>Objective metrics supporting a consistent and active software engineering workflow.</p>
+  <br>
+  
+  <!-- Stats & Streak Row -->
+  <table border="0" cellpadding="10" align="center">
+    <tr>
+      <td align="center" valign="middle">
+        <img src="https://github-readme-stats.vercel.app/api?username=hasan19524&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=58A6FF&amp;text_color=8B949E&amp;icon_color=58A6FF" alt="GitHub Stats">
+      </td>
+      <td align="center" valign="middle">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=hasan19524&amp;hide_border=true&amp;background=00000000&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF&amp;sideNums=8B949E&amp;currStreakNum=8B949E&amp;dates=8B949E" alt="GitHub Streak">
+      </td>
+    </tr>
+  </table>
+  
+  <br>
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hasan19524&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=58A6FF&amp;text_color=8B949E" alt="Top Languages">
+  
+  <br><br>
+
+  <!-- Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hasan19524&amp;bg_color=00000000&amp;color=8B949E&amp;line=58A6FF&amp;point=58A6FF&amp;hide_border=true&amp;area=true" alt="GitHub Activity Graph">
 
 </div>
 
