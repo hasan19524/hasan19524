@@ -175,19 +175,10 @@
   <p>Objective metrics supporting a consistent and active software engineering workflow.</p>
   <br>
   
-  <!-- Stats & Streak Row -->
-  <table border="0" cellpadding="10" align="center">
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats-eight-omega-6iibei9sm.vercel.app/api?username=hasan19524&amp;show_icons=true&amp;hide_border=true&amp;count_private=true&amp;bg_color=00000000&amp;title_color=58A6FF&amp;text_color=8B949E&amp;icon_color=58A6FF" alt="GitHub Stats">
-      </td>
-      <td align="center" valign="middle">
-        <img src="https://streak-stats.demolab.com/?user=hasan19524&amp;hide_border=true&amp;count_private=true&amp;background=00000000&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF&amp;sideNums=8B949E&amp;currStreakNum=8B949E&amp;dates=8B949E" alt="GitHub Streak">
-      </td>
-    </tr>
-  </table>
+  <!-- Contribution Streak -->
+  <img src="https://streak-stats.demolab.com/?user=hasan19524&amp;hide_border=true&amp;count_private=true&amp;background=00000000&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF&amp;sideNums=8B949E&amp;currStreakNum=8B949E&amp;dates=8B949E" alt="GitHub Streak">
   
-  <br>
+  <br><br>
 
   <!-- Top Languages -->
   <img src="https://github-readme-stats-eight-omega-6iibei9sm.vercel.app/api/top-langs/?username=hasan19524&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=58A6FF&amp;text_color=8B949E" alt="Top Languages">
