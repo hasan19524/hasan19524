@@ -186,8 +186,6 @@
 </div>
 
 <!-- ============================================================================== -->
-
-<!-- ============================================================================== -->
 <!--                            CURRENT FOCUS EXPERIENCE                            -->
 <!-- ============================================================================== -->
 
@@ -201,44 +199,52 @@
   <tr>
     <!-- Building -->
     <td width="50%" align="center" valign="top">
-      <h4>🚀 Building</h4>
-      Nexus AI Operating System<br>
-      AI Agents<br>
-      Intelligent Automation<br>
-      Knowledge Systems<br>
-      Developer Productivity Tools
+      <h3>🚀 Building</h3>
+      <i>Production-Grade Systems</i>
+      <br><br>
+      ▹ Nexus AI Operating System<br>
+      ▹ AI Agents<br>
+      ▹ Intelligent Automation<br>
+      ▹ Knowledge Systems<br>
+      ▹ Developer Productivity Tools
     </td>
     
     <!-- Learning -->
     <td width="50%" align="center" valign="top">
-      <h4>📚 Learning</h4>
-      Multi-Agent Systems<br>
-      Advanced System Design<br>
-      AI Infrastructure<br>
-      LLM Engineering<br>
-      Distributed Systems
+      <h3>📚 Learning</h3>
+      <i>Advanced Architectures</i>
+      <br><br>
+      ▹ Multi-Agent Systems<br>
+      ▹ Advanced System Design<br>
+      ▹ AI Infrastructure<br>
+      ▹ LLM Engineering<br>
+      ▹ Distributed Systems
     </td>
   </tr>
   
   <tr>
     <!-- Exploring -->
     <td width="50%" align="center" valign="top">
-      <h4>🔭 Exploring</h4>
-      Local AI<br>
-      Browser Automation<br>
-      Desktop Automation<br>
-      Workflow Automation<br>
-      Open Source AI
+      <h3>🔭 Exploring</h3>
+      <i>Intelligent Automation</i>
+      <br><br>
+      ▹ Local AI<br>
+      ▹ Browser Automation<br>
+      ▹ Desktop Automation<br>
+      ▹ Workflow Automation<br>
+      ▹ Open Source AI
     </td>
     
     <!-- Improving -->
     <td width="50%" align="center" valign="top">
-      <h4>📈 Improving</h4>
-      Backend Performance<br>
-      Clean Architecture<br>
-      Developer Experience<br>
-      Software Scalability<br>
-      Production Readiness
+      <h3>📈 Improving</h3>
+      <i>Scalability & Performance</i>
+      <br><br>
+      ▹ Backend Performance<br>
+      ▹ Clean Architecture<br>
+      ▹ Developer Experience<br>
+      ▹ Software Scalability<br>
+      ▹ Production Readiness
     </td>
   </tr>
 </table>
