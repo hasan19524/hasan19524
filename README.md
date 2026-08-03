@@ -48,8 +48,6 @@
 </div>
 
 <!-- ============================================================================== -->
-
-<!-- ============================================================================== -->
 <!--                              FEATURED PROJECTS                                 -->
 <!-- ============================================================================== -->
 
@@ -59,131 +57,71 @@
   <br>
 </div>
 
-<!-- PROJECT 1: NEXUS -->
-<div align="center">
-  <h3>Nexus</h3>
-  <i>Local-First AI Operating System</i>
-  <br>
-  <p>An intelligent assistant designed to understand, learn, reason, and execute tasks autonomously. Built around a highly modular, extensible architecture prioritizing system design over simple implementation.</p>
-  
-  <table>
-    <tr>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Engineering Highlights</b><br>
-        ? Modular AI Kernel & Adapters<br>
-        ? RAG & Long-Term Memory<br>
-        ? Multi-Provider AI Architecture<br>
-        ? Plugin & Tool Calling Framework<br>
-        ? Workspace & Browser Intelligence
-      </td>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Architecture & Stack</b><br>
-        <kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>Ollama</kbd><br>
-        <kbd>ChromaDB</kbd> <kbd>PostgreSQL</kbd> <kbd>React</kbd><br><br>
-        <b>Status:</b> ?? Actively Developing
-      </td>
-    </tr>
-  </table>
-  <br>
-  <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
-</div>
+<!-- 2x2 PROJECT GRID -->
+<table width="100%" align="center">
+  <tr>
+    <!-- Project 1: Nexus -->
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>?? Nexus</h3>
+      <i>Local-First AI Operating System</i>
+      <br>
+      <p>Intelligent assistant designed to learn, reason, and execute autonomously.</p>
+      <br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+      <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+      <img src="https://img.shields.io/badge/ChromaDB-FF4B4B?style=flat-square&logo=chroma&logoColor=white" alt="ChromaDB">
+      <br><br>
+      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
 
-<br>
-<hr>
-<br>
+    <!-- Project 2: Acumen Teams -->
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>?? Acumen Teams</h3>
+      <i>Enterprise Collaboration Platform</i>
+      <br>
+      <p>Real-time team workspaces with scalable backend architecture and secure RBAC.</p>
+      <br>
+      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django">
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js">
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
+      <br><br>
+      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
+  </tr>
 
-<!-- PROJECT 2: ACUMEN TEAMS -->
-<div align="center">
-  <h3>Acumen Teams</h3>
-  <i>Enterprise Collaboration Platform</i>
-  <br>
-  <p>A real-time collaboration platform built during my software engineering internship. Focused on solving complex backend challenges regarding scalability, real-time communication, and data optimization.</p>
-  
-  <table>
-    <tr>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Engineering Highlights</b><br>
-        ? Real-Time WebSockets Architecture<br>
-        ? RBAC & Secure JWT Authentication<br>
-        ? Redis Caching for Performance<br>
-        ? Optimized SQL Query Execution<br>
-        ? Scalable REST API Design
-      </td>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Architecture & Stack</b><br>
-        <kbd>Django</kbd> <kbd>Next.js</kbd> <kbd>PostgreSQL</kbd><br>
-        <kbd>Redis</kbd> <kbd>WebSockets</kbd> <kbd>React</kbd><br><br>
-        <b>Status:</b> ?? Production Internship Project
-      </td>
-    </tr>
-  </table>
-  <br>
-  <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
-</div>
+  <tr>
+    <!-- Project 3: OJASV Scientific -->
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>?? OJASV Scientific</h3>
+      <i>Production Industrial Platform</i>
+      <br>
+      <p>Scalable, CMS-driven platform with custom admin dashboard built for a real client.</p>
+      <br>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js">
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+      <br><br>
+      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
 
-<br>
-<hr>
-<br>
-
-<!-- PROJECT 3: OJASV SCIENTIFIC -->
-<div align="center">
-  <h3>OJASV Scientific</h3>
-  <i>Production Industrial Engineering Platform</i>
-  <br>
-  <p>A production-ready freelance platform built for a real industrial engineering company. Designed with a CMS-like architecture to ensure future feature additions and content updates require minimal development effort.</p>
-  
-  <table>
-    <tr>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Engineering Highlights</b><br>
-        ? CMS-like Dynamic Content Management<br>
-        ? Custom Admin Dashboard Engineering<br>
-        ? Scalable FastAPI Backend Layer<br>
-        ? Database Migrations via Alembic<br>
-        ? CI/CD & High Availability Deployment
-      </td>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Architecture & Stack</b><br>
-        <kbd>Next.js</kbd> <kbd>FastAPI</kbd> <kbd>TypeScript</kbd><br>
-        <kbd>PostgreSQL</kbd> <kbd>TailwindCSS</kbd> <kbd>SQLAlchemy</kbd><br><br>
-        <b>Status:</b> ?? Live Production Project
-      </td>
-    </tr>
-  </table>
-  <br>
-  <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
-</div>
-
-<br>
-<hr>
-<br>
-
-<!-- PROJECT 4: AI RESUME ANALYZER -->
-<div align="center">
-  <h3>AI Resume Analyzer</h3>
-  <i>AI Workflow Automation</i>
-  <br>
-  <p>An automated resume analysis system leveraging AI workflows. Demonstrates practical intelligence and productivity automation by engineering complex workflows rather than traditional frontend development.</p>
-  
-  <table>
-    <tr>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Engineering Highlights</b><br>
-        ? Intelligent Workflow Design<br>
-        ? LLM Integration & Prompt Engineering<br>
-        ? Automated Data Extraction Pipelines<br>
-        ? Productivity & Process Automation<br>
-        ? API Orchestration
-      </td>
-      <td align="left" width="50%" vertical-align="top">
-        <b>Architecture & Stack</b><br>
-        <kbd>n8n</kbd> <kbd>LLMs</kbd> <kbd>Webhooks</kbd><br><br>
-        <b>Status:</b> ? Completed
-      </td>
-    </tr>
-  </table>
-  <br>
-  <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
-</div>
+    <!-- Project 4: AI Resume Analyzer -->
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>?? Resume Analyzer</h3>
+      <i>AI Workflow Automation</i>
+      <br>
+      <p>Automated resume analysis system leveraging AI workflows and LLM integration.</p>
+      <br>
+      <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
+      <img src="https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white" alt="LLMs">
+      <img src="https://img.shields.io/badge/Webhooks-6C2BD9?style=flat-square&logo=webhooks&logoColor=white" alt="Webhooks">
+      <img src="https://img.shields.io/badge/Automation-FF6B6B?style=flat-square&logo=automate&logoColor=white" alt="Automation">
+      <br><br>
+      <a href="#"><img src="https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repository"></a>
+    </td>
+  </tr>
+</table>
 
 <!-- ============================================================================== -->
