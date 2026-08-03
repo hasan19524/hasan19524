@@ -192,66 +192,8 @@
   <p>Actively investing in areas that bridge artificial intelligence with scalable software architecture.</p>
   <br>
   
-  <!-- High-Res Image Asset -->
-  <img src="assets/images/lambo-focus.png" alt="Lamborghini Revuelto - Moving Fast" width="800" />
+  <img src="assets/current-focus.svg" alt="Top Down Race - Leading the pack" width="800" />
   
-  <br>
-  <br>
-
-  <table border="0" cellpadding="20" align="center">
-    <tr>
-      <td width="50%" align="center" valign="top">
-        <h3>🚀 Building</h3>
-        <i>Production-Grade Systems</i>
-        <br><br>
-        <div align="left">
-          ▹ Nexus AI Operating System<br>
-          ▹ AI Agents<br>
-          ▹ Intelligent Automation<br>
-          ▹ Knowledge Systems<br>
-          ▹ Developer Productivity Tools
-        </div>
-      </td>
-      <td width="50%" align="center" valign="top">
-        <h3>📚 Learning</h3>
-        <i>Advanced Architectures</i>
-        <br><br>
-        <div align="left">
-          ▹ Multi-Agent Systems<br>
-          ▹ Advanced System Design<br>
-          ▹ AI Infrastructure<br>
-          ▹ LLM Engineering<br>
-          ▹ Distributed Systems
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center" valign="top">
-        <h3>🔭 Exploring</h3>
-        <i>Intelligent Automation</i>
-        <br><br>
-        <div align="left">
-          ▹ Local AI<br>
-          ▹ Browser Automation<br>
-          ▹ Desktop Automation<br>
-          ▹ Workflow Automation<br>
-          ▹ Open Source AI
-        </div>
-      </td>
-      <td width="50%" align="center" valign="top">
-        <h3>📈 Improving</h3>
-        <i>Scalability & Performance</i>
-        <br><br>
-        <div align="left">
-          ▹ Backend Performance<br>
-          ▹ Clean Architecture<br>
-          ▹ Developer Experience<br>
-          ▹ Software Scalability<br>
-          ▹ Production Readiness
-        </div>
-      </td>
-    </tr>
-  </table>
 </div>
 
 <!-- ============================================================================== -->
