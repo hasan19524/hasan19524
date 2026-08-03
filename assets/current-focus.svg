@@ -17,91 +17,38 @@
     <rect x="0" y="80" width="1200" height="2" fill="#484f58" />
     <rect x="0" y="318" width="1200" height="2" fill="#484f58" />
 
-    <!-- Scrolling Road Dashes (Lane 1|2) -->
+    <!-- Road Dashes (Lane 1|2) -->
     <g fill="#484f58" opacity="0.8">
-        <rect x="0" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="120" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="240" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="360" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="480" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="600" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="720" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="840" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="960" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="1080" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="1200" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="1320" y="158" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
+        <rect x="0" y="158" width="60" height="4" />
+        <rect x="120" y="158" width="60" height="4" />
+        <rect x="240" y="158" width="60" height="4" />
+        <rect x="360" y="158" width="60" height="4" />
+        <rect x="480" y="158" width="60" height="4" />
+        <rect x="600" y="158" width="60" height="4" />
+        <rect x="720" y="158" width="60" height="4" />
+        <rect x="840" y="158" width="60" height="4" />
+        <rect x="960" y="158" width="60" height="4" />
+        <rect x="1080" y="158" width="60" height="4" />
     </g>
 
-    <!-- Scrolling Road Dashes (Lane 2|3) -->
+    <!-- Road Dashes (Lane 2|3) -->
     <g fill="#484f58" opacity="0.8">
-        <rect x="0" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="120" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="240" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="360" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="480" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="600" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="720" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="840" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="960" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="1080" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="1200" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
-        <rect x="1320" y="238" width="60" height="4">
-            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
-        </rect>
+        <rect x="0" y="238" width="60" height="4" />
+        <rect x="120" y="238" width="60" height="4" />
+        <rect x="240" y="238" width="60" height="4" />
+        <rect x="360" y="238" width="60" height="4" />
+        <rect x="480" y="238" width="60" height="4" />
+        <rect x="600" y="238" width="60" height="4" />
+        <rect x="720" y="238" width="60" height="4" />
+        <rect x="840" y="238" width="60" height="4" />
+        <rect x="960" y="238" width="60" height="4" />
+        <rect x="1080" y="238" width="60" height="4" />
     </g>
 
-    <!-- ═══ ENEMY CARS (SMIL Animations) ═══ -->
+    <!-- ═══ ENEMY CARS (Trailing Behind / Right Side) ═══ -->
     
     <!-- Enemy 1 (Top Lane - y=120) -->
-    <g transform="translate(1300, 120)">
-        <animateTransform attributeName="transform" type="translate" values="1300 120; -200 120" dur="12s" repeatCount="indefinite" />
+    <g transform="translate(700, 120)">
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -112,8 +59,7 @@
     </g>
 
     <!-- Enemy 2 (Middle Lane - y=200) -->
-    <g transform="translate(1300, 200)">
-        <animateTransform attributeName="transform" type="translate" values="1300 200; -200 200" dur="14s" begin="1.5s" repeatCount="indefinite" />
+    <g transform="translate(950, 200)">
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -124,8 +70,7 @@
     </g>
 
     <!-- Enemy 3 (Bottom Lane - y=280) -->
-    <g transform="translate(1300, 280)">
-        <animateTransform attributeName="transform" type="translate" values="1300 280; -200 280" dur="11s" begin="3s" repeatCount="indefinite" />
+    <g transform="translate(800, 280)">
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -136,8 +81,7 @@
     </g>
 
     <!-- Enemy 4 (Top Lane - y=120) -->
-    <g transform="translate(1300, 120)">
-        <animateTransform attributeName="transform" type="translate" values="1300 120; -200 120" dur="13s" begin="4.5s" repeatCount="indefinite" />
+    <g transform="translate(1100, 120)">
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -148,8 +92,7 @@
     </g>
 
     <!-- Enemy 5 (Middle Lane - y=200) -->
-    <g transform="translate(1300, 200)">
-        <animateTransform attributeName="transform" type="translate" values="1300 200; -200 200" dur="12.5s" begin="6s" repeatCount="indefinite" />
+    <g transform="translate(1050, 200)">
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -159,22 +102,9 @@
         <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
     </g>
 
-    <!-- Enemy 6 (Bottom Lane - y=280) -->
-    <g transform="translate(1300, 280)">
-        <animateTransform attributeName="transform" type="translate" values="1300 280; -200 280" dur="14.5s" begin="7.5s" repeatCount="indefinite" />
-        <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
-        <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
-        <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
-        <rect x="23" y="-22" width="12" height="8" fill="#0d1117" />
-        <rect x="-35" y="14" width="12" height="8" fill="#0d1117" />
-        <rect x="23" y="14" width="12" height="8" fill="#0d1117" />
-        <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
-    </g>
-
-    <!-- ═══ PLAYER CAR (ME - White, Weaving) ═══ -->
-    <!-- Base X=200. Y oscillates between 120, 200, 280 -->
-    <g transform="translate(200, 200)">
-        <animateTransform attributeName="transform" type="translate" values="200 200; 200 120; 200 120; 200 200; 200 280; 200 280; 200 200" keyTimes="0; 0.15; 0.35; 0.5; 0.65; 0.85; 1" dur="8s" repeatCount="indefinite" />
+    <!-- ═══ PLAYER CAR (ME - White, Leading the pack) ═══ -->
+    <!-- Position: x=250, y=200 (Middle Lane) -->
+    <g transform="translate(250, 200)">
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#ffffff" stroke="#c9d1d9" stroke-width="2" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
