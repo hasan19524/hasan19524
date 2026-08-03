@@ -1,91 +1,107 @@
 ﻿<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <style>
-            /* Fast road scroll to simulate high speed */
-            @keyframes mapScroll {
-                0%   { transform: translateX(0); }
-                100% { transform: translateX(-120px); }
-            }
-            
-            /* Enemy cars move left SLOWER than the road scroll to simulate you passing them */
-            @keyframes enemyMove {
-                0%   { transform: translateX(1300px); }
-                100% { transform: translateX(-200px); }
-            }
-
-            /* Player car weaves smoothly up and down through 3 lanes */
-            /* Base Y=200. Up: -80 (Lane 1). Down: +80 (Lane 3) */
-            @keyframes playerWeave {
-                0%   { transform: translateY(0px); }
-                15%  { transform: translateY(-80px); }
-                35%  { transform: translateY(-80px); }
-                50%  { transform: translateY(0px); }
-                65%  { transform: translateY(80px); }
-                85%  { transform: translateY(80px); }
-                100% { transform: translateY(0px); }
-            }
-
-            .road-layer { animation: mapScroll 0.6s linear infinite; }
-            
-            .enemy-1 { animation: enemyMove 12s linear infinite; }
-            .enemy-2 { animation: enemyMove 14s linear infinite 1.5s; }
-            .enemy-3 { animation: enemyMove 11s linear infinite 3s; }
-            .enemy-4 { animation: enemyMove 13s linear infinite 4.5s; }
-            .enemy-5 { animation: enemyMove 12.5s linear infinite 6s; }
-            .enemy-6 { animation: enemyMove 14.5s linear infinite 7.5s; }
-            
-            .player-car { animation: playerWeave 8s ease-in-out infinite; }
-            
-            .glow { filter: drop-shadow(0 0 5px rgba(255,255,255,0.3)); }
-        </style>
+        <pattern id="grassPat" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+            <rect width="40" height="20" fill="#0d1117"/>
+            <rect y="20" width="40" height="20" fill="#161b22"/>
+        </pattern>
     </defs>
 
-    <!-- Grass Top & Bottom (Matches GitHub Dark Mode bg) -->
-    <rect x="0" y="0" width="1200" height="80" fill="#0d1117" />
-    <rect x="0" y="320" width="1200" height="80" fill="#0d1117" />
+    <!-- Grass Top & Bottom -->
+    <rect x="0" y="0" width="1200" height="80" fill="url(#grassPat)" />
+    <rect x="0" y="320" width="1200" height="80" fill="url(#grassPat)" />
 
     <!-- Road Asphalt -->
     <rect x="0" y="80" width="1200" height="240" fill="#21262d" />
 
-    <!-- Road Edges (Subtle grey lines) -->
+    <!-- Road Edges -->
     <rect x="0" y="80" width="1200" height="2" fill="#484f58" />
     <rect x="0" y="318" width="1200" height="2" fill="#484f58" />
 
-    <!-- Scrolling Road Dashes -->
-    <g class="road-layer" fill="#484f58" opacity="0.8">
-        <!-- Lane 1|2 divider (y=160) -->
-        <rect x="0" y="158" width="60" height="4" />
-        <rect x="120" y="158" width="60" height="4" />
-        <rect x="240" y="158" width="60" height="4" />
-        <rect x="360" y="158" width="60" height="4" />
-        <rect x="480" y="158" width="60" height="4" />
-        <rect x="600" y="158" width="60" height="4" />
-        <rect x="720" y="158" width="60" height="4" />
-        <rect x="840" y="158" width="60" height="4" />
-        <rect x="960" y="158" width="60" height="4" />
-        <rect x="1080" y="158" width="60" height="4" />
-        <rect x="1200" y="158" width="60" height="4" />
-        <rect x="1320" y="158" width="60" height="4" />
-        
-        <!-- Lane 2|3 divider (y=240) -->
-        <rect x="0" y="238" width="60" height="4" />
-        <rect x="120" y="238" width="60" height="4" />
-        <rect x="240" y="238" width="60" height="4" />
-        <rect x="360" y="238" width="60" height="4" />
-        <rect x="480" y="238" width="60" height="4" />
-        <rect x="600" y="238" width="60" height="4" />
-        <rect x="720" y="238" width="60" height="4" />
-        <rect x="840" y="238" width="60" height="4" />
-        <rect x="960" y="238" width="60" height="4" />
-        <rect x="1080" y="238" width="60" height="4" />
-        <rect x="1200" y="238" width="60" height="4" />
-        <rect x="1320" y="238" width="60" height="4" />
+    <!-- Scrolling Road Dashes (Lane 1|2) -->
+    <g fill="#484f58" opacity="0.8">
+        <rect x="0" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="120" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="240" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="360" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="480" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="600" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="720" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="840" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="960" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="1080" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="1200" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="1320" y="158" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
     </g>
 
-    <!-- ═══ ENEMY CARS (Grey, Labeled "OTHER") ═══ -->
+    <!-- Scrolling Road Dashes (Lane 2|3) -->
+    <g fill="#484f58" opacity="0.8">
+        <rect x="0" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="120" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="240" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="360" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="480" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="600" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="720" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="840" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="960" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="1080" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="1200" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+        <rect x="1320" y="238" width="60" height="4">
+            <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="0.6s" repeatCount="indefinite" />
+        </rect>
+    </g>
+
+    <!-- ═══ ENEMY CARS (SMIL Animations) ═══ -->
     
     <!-- Enemy 1 (Top Lane - y=120) -->
-    <g class="enemy-1" transform="translate(1300, 120)">
+    <g transform="translate(1300, 120)">
+        <animateTransform attributeName="transform" type="translate" values="1300 120; -200 120" dur="12s" repeatCount="indefinite" />
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -96,7 +112,8 @@
     </g>
 
     <!-- Enemy 2 (Middle Lane - y=200) -->
-    <g class="enemy-2" transform="translate(1300, 200)">
+    <g transform="translate(1300, 200)">
+        <animateTransform attributeName="transform" type="translate" values="1300 200; -200 200" dur="14s" begin="1.5s" repeatCount="indefinite" />
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -107,7 +124,8 @@
     </g>
 
     <!-- Enemy 3 (Bottom Lane - y=280) -->
-    <g class="enemy-3" transform="translate(1300, 280)">
+    <g transform="translate(1300, 280)">
+        <animateTransform attributeName="transform" type="translate" values="1300 280; -200 280" dur="11s" begin="3s" repeatCount="indefinite" />
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -118,7 +136,8 @@
     </g>
 
     <!-- Enemy 4 (Top Lane - y=120) -->
-    <g class="enemy-4" transform="translate(1300, 120)">
+    <g transform="translate(1300, 120)">
+        <animateTransform attributeName="transform" type="translate" values="1300 120; -200 120" dur="13s" begin="4.5s" repeatCount="indefinite" />
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -129,7 +148,8 @@
     </g>
 
     <!-- Enemy 5 (Middle Lane - y=200) -->
-    <g class="enemy-5" transform="translate(1300, 200)">
+    <g transform="translate(1300, 200)">
+        <animateTransform attributeName="transform" type="translate" values="1300 200; -200 200" dur="12.5s" begin="6s" repeatCount="indefinite" />
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -140,7 +160,8 @@
     </g>
 
     <!-- Enemy 6 (Bottom Lane - y=280) -->
-    <g class="enemy-6" transform="translate(1300, 280)">
+    <g transform="translate(1300, 280)">
+        <animateTransform attributeName="transform" type="translate" values="1300 280; -200 280" dur="14.5s" begin="7.5s" repeatCount="indefinite" />
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#8b949e" stroke="#6e7681" stroke-width="1" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
@@ -150,9 +171,10 @@
         <text x="0" y="5" fill="#fff" font-family="monospace" font-weight="bold" font-size="12" text-anchor="middle">OTHER</text>
     </g>
 
-    <!-- ═══ PLAYER CAR (ME - White, Weaving through traffic) ═══ -->
-    <!-- Base position: x=200, y=200 (Middle Lane) -->
-    <g class="player-car glow" transform="translate(200, 200)">
+    <!-- ═══ PLAYER CAR (ME - White, Weaving) ═══ -->
+    <!-- Base X=200. Y oscillates between 120, 200, 280 -->
+    <g transform="translate(200, 200)">
+        <animateTransform attributeName="transform" type="translate" values="200 200; 200 120; 200 120; 200 200; 200 280; 200 280; 200 200" keyTimes="0; 0.15; 0.35; 0.5; 0.65; 0.85; 1" dur="8s" repeatCount="indefinite" />
         <rect x="-35" y="-18" width="70" height="36" rx="6" fill="#ffffff" stroke="#c9d1d9" stroke-width="2" />
         <rect x="-22" y="-14" width="44" height="28" rx="4" fill="#0d1117" />
         <rect x="-35" y="-22" width="12" height="8" fill="#0d1117" />
