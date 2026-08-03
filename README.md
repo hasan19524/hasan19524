@@ -180,11 +180,6 @@
   
   <br><br>
 
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats-eight-omega-6iibei9sm.vercel.app/api/top-langs/?username=hasan19524&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=58A6FF&amp;text_color=8B949E" alt="Top Languages">
-  
-  <br><br>
-
   <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=hasan19524&amp;bg_color=00000000&amp;color=8B949E&amp;line=58A6FF&amp;point=58A6FF&amp;hide_border=true&amp;area=true" alt="GitHub Activity Graph">
 
