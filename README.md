@@ -248,3 +248,89 @@
 </table>
 
 <!-- ============================================================================== -->
+
+<!-- ============================================================================== -->
+<!--                      PROFESSIONAL JOURNEY & RECOGNITION                        -->
+<!-- ============================================================================== -->
+
+<div align="center">
+  <h2>Professional Journey</h2>
+  <p>A timeline of consistent growth, real-world execution, and engineering milestones.</p>
+</div>
+
+<table border="0" cellpadding="20" align="center">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3>🏢 Acumen Travels</h3>
+      <i>AI & Web Development Intern</i>
+      <br><br>
+      <div align="left">
+        ▹ Built Acumen Teams (Enterprise Collab)<br>
+        ▹ Developed AI Refund System<br>
+        ▹ Optimized Django backend & REST APIs<br>
+        ▹ Implemented WebSockets & Redis caching
+      </div>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3>💼 Freelance Production</h3>
+      <i>OJASV Scientific Platform</i>
+      <br><br>
+      <div align="left">
+        ▹ Delivered full-stack platform for real client<br>
+        ▹ Architected CMS & Admin Dashboard<br>
+        ▹ Built scalable FastAPI backend layer<br>
+        ▹ Deployed on Vercel & Railway (CI/CD)
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3>📜 Certifications</h3>
+      <i>Verified Learning & Job Simulations</i>
+      <br><br>
+      <div align="left">
+        ▹ IIT Roorkee & Intellipaat (Data Science)<br>
+        ▹ Deloitte Technology Job Simulation<br>
+        ▹ Deloitte Data Analytics Job Simulation<br>
+        ▹ Google Play Academy (Store Listing)
+      </div>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3>🏆 Engineering Achievements</h3>
+      <i>Real-World System Delivery</i>
+      <br><br>
+      <div align="left">
+        ▹ Shipped multiple production systems<br>
+        ▹ Built autonomous AI Agent infrastructure<br>
+        ▹ Deployed local-first LLM architectures<br>
+        ▹ Architected real-time enterprise platforms
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3>🎯 Future Mission</h3>
+      <i>Long-Term Engineering Ambitions</i>
+      <br><br>
+      <div align="left">
+        ▹ Evolve Nexus into a prod AI Operating System<br>
+        ▹ Master distributed AI systems architecture<br>
+        ▹ Contribute heavily to open-source AI<br>
+        ▹ Design scalable developer productivity tools
+      </div>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3>🗺️ Key Milestones</h3>
+      <i>Journey Highlights</i>
+      <br><br>
+      <div align="left">
+        ▹ 2024: First Freelance Production Client<br>
+        ▹ 2024: AI Engineering Internship Acquired<br>
+        ▹ 2025: Architected Nexus AI Operating System<br>
+        ▹ Next: Open Source AI Contributions
+      </div>
+    </td>
+  </tr>
+</table>
+
+<!-- ============================================================================== -->
