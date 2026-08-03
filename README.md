@@ -186,3 +186,61 @@
 </div>
 
 <!-- ============================================================================== -->
+
+<!-- ============================================================================== -->
+<!--                            CURRENT FOCUS EXPERIENCE                            -->
+<!-- ============================================================================== -->
+
+<div align="center">
+  <h2>Current Focus</h2>
+  <p>Actively investing in areas that bridge artificial intelligence with scalable software architecture.</p>
+  <br>
+</div>
+
+<table border="0" cellpadding="20" align="center">
+  <tr>
+    <!-- Building -->
+    <td width="50%" align="center" valign="top">
+      <h4>🚀 Building</h4>
+      Nexus AI Operating System<br>
+      AI Agents<br>
+      Intelligent Automation<br>
+      Knowledge Systems<br>
+      Developer Productivity Tools
+    </td>
+    
+    <!-- Learning -->
+    <td width="50%" align="center" valign="top">
+      <h4>📚 Learning</h4>
+      Multi-Agent Systems<br>
+      Advanced System Design<br>
+      AI Infrastructure<br>
+      LLM Engineering<br>
+      Distributed Systems
+    </td>
+  </tr>
+  
+  <tr>
+    <!-- Exploring -->
+    <td width="50%" align="center" valign="top">
+      <h4>🔭 Exploring</h4>
+      Local AI<br>
+      Browser Automation<br>
+      Desktop Automation<br>
+      Workflow Automation<br>
+      Open Source AI
+    </td>
+    
+    <!-- Improving -->
+    <td width="50%" align="center" valign="top">
+      <h4>📈 Improving</h4>
+      Backend Performance<br>
+      Clean Architecture<br>
+      Developer Experience<br>
+      Software Scalability<br>
+      Production Readiness
+    </td>
+  </tr>
+</table>
+
+<!-- ============================================================================== -->
