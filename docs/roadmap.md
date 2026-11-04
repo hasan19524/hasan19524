@@ -1,13 +1,36 @@
 # GitHub Profile Development Roadmap
 
-- [x] Phase 1 — Foundation
-- [ ] Phase 2 — Hero Section
-- [ ] Phase 3 — About Me
-- [ ] Phase 4 — Featured Projects
-- [ ] Phase 5 — Tech Stack
-- [ ] Phase 6 — GitHub Analytics
-- [ ] Phase 7 — Current Focus
-- [ ] Phase 8 — Social Links
-- [ ] Phase 9 — Animations
-- [ ] Phase 10 — GitHub Actions
-- [ ] Phase 11 — Final Polish
+- [x] Phase 1 â€” Foundation
+- [x] Phase 2 â€” Hero Section
+- [x] Phase 3 â€” About Me
+- [x] Phase 4 â€” Featured Projects
+- [x] Phase 5 â€” Tech Stack
+- [x] Phase 6 â€” GitHub Analytics
+- [x] Phase 7 â€” Current Focus
+- [x] Phase 8 â€” Social Links
+- [x] Phase 9 â€” Animations
+- [x] Phase 10 â€” GitHub Actions
+- [x] Phase 11 â€” Final Polish
+
+## Completed (Nov 2026 refinement pass)
+
+- Rebuilt README with verified facts only (sourced from HASAN_PROFILE.md master profile).
+- Replaced placeholder `#` links with real, verified repository URLs (checked via GitHub API).
+- Featured projects updated to strongest six: Nexus, KYRO, Proctra, ASTRA, Acumen Teams, OJASV Scientific.
+- Removed weak/private "Resume Analyzer" card; moved n8n automation to "More Engineering Work" with real repos.
+- Fixed LinkedIn URL to canonical handle `hasan-siddique-dev`.
+- OJASV card links the live production site (ojasvndt.com) since the repo is private.
+- Removed unverifiable certification claims; replaced with verified achievements.
+- Corrected milestone dates (internship + freelance = 2026, not 2024).
+- Tech stack aligned to actual skills (removed MSSQL/SQLite, added MongoDB, C++, Kafka, LiveKit).
+- GitHub stats switched to self-hosted instance (no public rate-limit failures).
+- Added About Me section, footer CTA with email, and profile-views counter.
+- Removed `project.zip` from git tracking; added to `.gitignore`.
+
+## Future Ideas (optional)
+
+- [ ] Pin the six featured repos on the GitHub profile (Settings â†’ pinned; manual, can't be automated via API).
+- [ ] Add per-project screenshots/previews into `assets/previews/` and embed in project cards.
+- [ ] Add a custom hero banner into `assets/banners/`.
+- [ ] Add repo-level topics + descriptions on the project repos for GitHub search SEO.
+- [ ] Post-Nexus-v1.0: swap KYRO card for a dedicated Nexus deep-dive card with architecture diagram.

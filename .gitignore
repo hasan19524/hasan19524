@@ -22,3 +22,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local archives - never ship in profile repo
+project.zip
+*.zip
